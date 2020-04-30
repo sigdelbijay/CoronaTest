@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lvTemplate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtCountry"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTotalCases"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtNewCases"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTotalDeaths"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtNewDeaths"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTotalRecovered"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtActiveCases"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtSeriousCritical"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTotCasePerMillion"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTotDeathsPerMillion"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTotalTests"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/txtTotTestsPerMillion"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:textColor="#000"
+        android:textSize="18dp"/>
+
+</LinearLayout>
