@@ -32,106 +32,131 @@
                     android:text="Country"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/totalCases"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Total Cases"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/newCases"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="New Cases"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/totalDeaths"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Total Deaths"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/newDeaths"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="New Deaths"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/totalRecovered"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Total Recovered"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/activeCases"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Active Cases"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/seriousCritical"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Serious, Critical"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/totCasesPerMillion"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Tot Cases/1M pop"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/totDeathsPerMillion"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Tot Deaths/1M pop"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/totTests"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Tot Tests"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
                 <TextView
+                    android:id="@+id/totTestsPerMillion"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="1dp"
                     android:text="Tot Tests/1M pop"
                     android:textColor="#000"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"/>
 
 
             </LinearLayout>
