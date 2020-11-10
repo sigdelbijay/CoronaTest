@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">CoronaTest</string>
     <string name="rapidapi_host">coronavirus-monitor-v2.p.rapidapi.com</string>
-    <string name="rapidapi_key">84b483492amsh322a80a3e192511p1469c7jsn5461c2d06a60</string>
     <string name="rapidapi_covid_url">https://coronavirus-monitor-v2.p.rapidapi.com/coronavirus/cases_by_country.php</string>
 </resources>
